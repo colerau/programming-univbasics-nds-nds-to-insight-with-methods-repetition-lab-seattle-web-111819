@@ -47,7 +47,7 @@ def total_gross(source)
   
   # pp source
   
-  
+  pp directors_totals(source)
   
 end
 
