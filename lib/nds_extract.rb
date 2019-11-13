@@ -30,6 +30,7 @@ def list_of_directors(source)
   array = []
   source.each do |name|
     array.push(name[:name])
+  end  
   array
 end
 
