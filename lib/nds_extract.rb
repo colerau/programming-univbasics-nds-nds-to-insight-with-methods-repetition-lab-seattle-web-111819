@@ -27,6 +27,7 @@ end
 def list_of_directors(source)
   # Write this implementation
   # pp source
+  array = []
   source.each do |name|
     
 end
