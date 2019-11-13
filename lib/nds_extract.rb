@@ -27,7 +27,8 @@ end
 def list_of_directors(source)
   # Write this implementation
   # pp source
-  
+  source.each do |name|
+    
 end
 
 def total_gross(source)
