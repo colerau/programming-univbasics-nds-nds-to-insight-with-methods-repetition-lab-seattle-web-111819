@@ -50,7 +50,9 @@ def total_gross(source)
   pp directors_totals(source)
   total = 0 
   source.each do |director|
-    total += source[director] 
+    total += source[director]
+  end 
+  total 
 end
 
 
