@@ -51,7 +51,6 @@ def total_gross(source)
   total = 0 
   source.reduce do |director.values|
   end 
-  total 
 end
 
 
