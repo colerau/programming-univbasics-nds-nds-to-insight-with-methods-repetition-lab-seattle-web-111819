@@ -49,8 +49,7 @@ def total_gross(source)
   
   pp directors_totals(source)
   total = 0 
-  directors_totals(source).each do |director|
-    total += director.value
+  directors_totals(source).reduce(0) { |sum, (key, valye)
   end 
   total 
 end
