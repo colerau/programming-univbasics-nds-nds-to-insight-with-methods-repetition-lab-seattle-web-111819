@@ -48,7 +48,8 @@ def total_gross(source)
   # pp source
   
   pp directors_totals(source)
-  source.reduce { |0, director| }  
+  source.each do |director|
+    
 end
 
 
