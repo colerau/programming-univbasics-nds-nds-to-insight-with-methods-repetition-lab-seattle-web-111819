@@ -29,7 +29,7 @@ def list_of_directors(source)
   # pp source
   array = []
   source.each do |name|
-    
+    array.push(name)
 end
 
 def total_gross(source)
