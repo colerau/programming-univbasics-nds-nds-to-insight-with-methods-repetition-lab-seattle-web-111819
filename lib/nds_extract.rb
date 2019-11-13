@@ -48,10 +48,7 @@ def total_gross(source)
   # pp source
   
   pp directors_totals(source)
-  total = 0 
   directors_totals(source).reduce(0) { |sum, (key, value)| value }
-  end 
-  total 
 end
 
 
